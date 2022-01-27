@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template One</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <script src="javascript/bootstrap.bundle.js" defer></script>
+    <script src="javascript/script.js" defer></script>
+  </head>
+  <body>
+    
+    <nav class="navbar">
+      <div class="container-fluid d-flex justify-content-center align-items-center">
+        <div id="mobileNavLogo">
+          <a class="navbar-brand" href="#home"><img src="./assets/images/navbarLogo.png" alt="company logo"
+            /></a>
+        </div>
+        
+        <ul class="nav-links d-flex justify-content-around align-items-center p-2 my-auto">
+          <li><a class="nav-item" href="#home">Home</a></li>
+          <li><a class="nav-item" href="#about">About</a></li>
+          <li id="desktopNavLogo" class="logo">
+            <a class="nav-item" href="#"
+              ><img src="./assets/images/navbarLogo.png" alt="company logo"
+            /></a>
+          </li>
+          <li><a class="nav-item" href="#services">Services</a></li>
+          <li><a class="nav-item" href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="burger"><span></span><span></span><span></span></div>
+      </div>
+    </nav>
+
+    <!--////////////// HERO/LANDING SECTION ///////////////-->
+    <section id="#home" class="landing container-fluid">
+      <div class="row">
+        <div
+          class="col-sm-5 col-md-4 landing-info d-flex flex-column align-items-start justify-content-center"
+        >
+          <h1 class="display-3 landing-info--title">Languages are us.</h1>
+          <small class="display-5">We are the best.</small>
+          <button class="btn btn-primary my-5">Read More</button>
+        </div>
+      </div>
+    </section>
+
+    <!--////////////// ABOUT ///////////////-->
+
+    <section id="about" class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="section-name">ABOUT</p>
+            <h2 class="section-title">Here's something about us</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
+              eligendi quae delectus repudiandae, molestiae iste quod officiis
+              minus facere ipsa culpa vitae aspernatur quaerat, ullam accusamus
+              voluptatem recusandae dicta unde ea nemo!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              in ut quia odit dolores explicabo placeat, dolorem harum ea optio!
+            </p>
+            <div class="images-container d-flex">
+              <div class="img-container">
+                <img class="img-fluid" src="https://picsum.photos/200" alt="" />
+              </div>
+              <div class="img-container mx-3">
+                <img class="img-fluid" src="https://picsum.photos/200" alt="" />
+              </div>
+              <div class="img-container">
+                <img class="img-fluid" src="https://picsum.photos/200" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex flex-column">
+            <img class="img-fluid" src="https://picsum.photos/727/409" alt="" />
+            <div class="services-facts--more">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                recusandae minima fuga fugit eum mollitia aperiam provident
+                eveniet sed quisquam nihil unde suscipit, natus quod?
+              </p>
+              <button class="btn btn-primary">Read more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--//////////////// SERVICES /////////////-->
+    <section id="services" class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12">
+            <p class="section-name">SERVICES</p>
+            <h2 class="section-title">Some of the services we offer</h2>
+          </div>
+        </div>
+
+        <!--//////////////// CARDS/CAROUSEL /////////////-->
+
+        <div class="row">
+          <div class="col-md-4 services-left-panel py-5">
+            <ul id="carouselList" role="list">
+              <li role="listitem">
+                <a href="javascript:;" id="itemOne" style="color: #0c5959"
+                  >interpreting</a
+                ><span class="carouselScrollSpan"></span>
+              </li>
+              <li role="listitem">
+                <a href="javascript:;" id="itemTwo">translating</a>
+              </li>
+              <li role="listitem">
+                <a href="javascript:;" id="itemThree">audio transcripts</a>
+              </li>
+            </ul>
+          </div>
+          <div
+            id="right-panel"
+            class="col-md-8 services-right-panel d-flex flex-column align-items-center"
+          >
+            <img class="img-fluid" src="./assets/images/services1.png" alt="" />
+            <h3>Interpreting</h3>
+            <p class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores vero veritatis molestias eveniet dolores facere atque
+              deserunt ratione quos sit nam est culpa quis quo quisquam
+              distinctio, optio quia blanditiis!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--//////////// CONTACT //////////-->
+
+    <section id="contact" class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="section-name section-name-contact">CONTACT</p>
+            <h2 class="section-title my-3">
+              Contact us or just walk in to see us
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              expedita quis maiores asperiores ut sit, impedit sequi quas
+              quaerat veritatis?
+            </p>
+
+            <!-- Contact Boxes -->
+            <div class="row my-5">
+              <div class="col-sm-6 py-3 px-1">
+                <div class="contact-box d-flex flex-column align-items-center">
+                  <i class="fas fa-phone-alt"></i>
+                  <h5 class="contact-box--title">Telephone</h5>
+                  <a class="contact-box--info" href="tel:+07403262569"
+                    >0123 4456 789</a
+                  >
+                </div>
+              </div>
+
+              <div class="col-sm-6 py-3 px-1">
+                <div class="contact-box d-flex flex-column align-items-center">
+                  <i class="fas fa-envelope"></i>
+                  <h5 class="contact-box--title">Email</h5>
+                  <a class="contact-box--info" href="mailto:something@gmail.com"
+                    >myemail@company.com</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-6 d-flex justify-content-center align-items-center"
+          >
+            <div id="map" class="contact-map">
+              <iframe
+                class="img-fluid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.683015070518!2d-0.4934416847967688!3d51.574044313650035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x86d83c8cf1ec379!2zNTHCsDM0JzI2LjYiTiAwwrAyOScyOC41Ilc!5e0!3m2!1sen!2suk!4v1643110513304!5m2!1sen!2suk"
+                allowfullscreen=""
+                scrolling="no"
+                frameborder="0"
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="container-fluid footer bg-primary">
+      <div class="container py-4">
+        <div class="row d-flex align-items-center">
+          <!--  SOCIAL MEDIA ICONS -->
+          <div class="col-md-4 col-sm-6 py-2">
+            <div class="social-media d-flex justify-content-between px-0">
+              <a href=""
+                ><span><i class="fab fa-facebook-f"></i></span
+              ></a>
+              <a href=""
+                ><span><i class="fab fa-youtube"></i></span
+              ></a>
+              <a href=""
+                ><span><i class="fab fa-instagram"></i></span
+              ></a>
+              <a href=""
+                ><span><i class="fab fa-tiktok"></i></span
+              ></a>
+            </div>
+          </div>
+
+          <!-- COMPANY LOGO -->
+          <div
+            class="col-md-4 col-sm-6 footer-logo-container d-flex justify-content-center py-2"
+          >
+            <a href="#"
+              ><img
+                src="./assets/images/footer-logo.png"
+                alt="company logo"
+                class="img-fluid footer-logo"
+            /></a>
+          </div>
+
+          <!-- COPYRIGHT -->
+          <div class="col-md-4 col-sm-12 copyright text-end py-2">
+            <p>&copy; Copyright design: Ibrahim Al-Quraishi</p>
+            <p>Logo created from logomakr.com/app</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
