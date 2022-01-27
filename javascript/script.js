@@ -25,17 +25,17 @@ const carouselListItemThreeName = carouselList.children[2].children[0].textConte
 const carouselObj = {
   itemOne: {
     name: carouselListItemOneName,
-    imgSrc: "../assets/images/services1.png",
+    imgSrc: "./assets/images/services1.png",
     p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores vero veritatis molestias eveniet dolores facere atquedeserunt ratione quos sit nam est culpa quis quo quisquam distinctio, optio quia blanditiis!",
   },
   itemTwo: {
     name: carouselListItemTwoName,
-    imgSrc: "../assets/images/services2.png",
+    imgSrc: "./assets/images/services2.png",
     p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt cupiditate, voluptates nulla praesentium, dolorum sint laborum quibusdam possimus repudiandae labore aspernatur sapiente sunt dolore enim laboriosam architecto exercitationem fuga magnam?",
   },
   itemThree: {
     name: carouselListItemThreeName,
-    imgSrc: "../assets/images/services3.png",
+    imgSrc: "./assets/images/services3.png",
     p: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea tempore voluptates dolorum autem error quidem aliquam labore et id architecto itaque culpa ratione deleniti nesciunt sit distinctio eveniet quia beatae molestiae, amet deserunt. Aliquam, exercitationem.",
   },
 };
